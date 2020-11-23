@@ -1,9 +1,9 @@
-web app, hosted by uvic
-each participant gets unique recipient
-	at runtime? less "safe" but should be fine
-	maybe keep a hidden .out only having recipient names to check if any dupes
+Web app, each user gets their own user/pw
+Each user gets unique recipient
+	Pre-compiled from otp_decoder.cpp.
+	A .js file will decrypt the uniquely shuffled users. (TODO)
+		The nth user in alphabetical order will give a gift to the nth decrypted user.
 
-have a wheel spinning, faces on the wheel
-	p5.js
-	the outcome is already chosen, it should just be a bit of physics to determine the spinning params.
-	
+Have a wheel spinning with faces on the wheel (TODO)
+	Use p5.js
+	The outcome is already chosen, it should just be a bit of physics to determine the spinning params.
