@@ -31,6 +31,7 @@ function preload_img() {
 
 }
 
+// Each image should be a face put on a uniquely coloured background. Then, have the background of each wedge match that colour.
 function preload_wedges() {
 	user0 = new Wedge(img0, 0, '#8b0000', angle_offset);
 	user1 = new Wedge(img1, 1, '#ff781f', angle_offset);
