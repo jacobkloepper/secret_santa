@@ -70,12 +70,10 @@ int main() {
     std::string str {};
 
     std::vector<std::string> names {};
-    std::vector<std::string> init_names {};
     std::vector<std::string> keys {};
 
     while (ifile >> str) {
         names.push_back(str);
-        init_names.push_back(str);
     }
     while (key_file >> str) {
         keys.push_back(str);

@@ -1,6 +1,11 @@
-Web app, each user gets their own user/pw
-
 -----p5.js is required-----
+
+This project is completed.
+Things I would change if given more time/I had the desire:
+	- Use html to a better extent
+	- Don't use p5.js
+
+Web app, each user gets their own user/pw
 
 Each user gets unique recipient
 	Pre-compiled from otp_decoder.cpp.
